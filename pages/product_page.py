@@ -3,6 +3,7 @@ from .base_page import BasePage
 from .locators import ProductPageLocators
 
 class ProductPage(BasePage):
+
     def add_to_cart(self):
         #self.should_not_be_success_message()
         #self.should_be_disappeared_message()
